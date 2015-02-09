@@ -1,11 +1,11 @@
 function [x1,x2,x1range,x2range] = GETlensGrid(kparam)
 % % % Get the lens plane grid using the instrument parameters
-
-if length(kparam) == 2
+nargin = length(kparam);
+if nargin == 2
     x10 = 0;
     x20 = 0;
 else
-    x10 = kparam(3); 
+    x10 = kparam(3); %
     x20 = kparam(4);
 end
 
