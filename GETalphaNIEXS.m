@@ -1,6 +1,5 @@
 function [Xr,alpha,x1,x2] = GETalphaNIEXS(lensParam,X)
-% % % % calculate the deflection angle for the nonsingular isothermal
-% ellipsoid lens model with external shear
+% % % % calculate the deflection angle for the NIE + XS lens model
 
 % % % lens parameters
 einRad = lensParam(1);
