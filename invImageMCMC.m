@@ -22,7 +22,7 @@ kparam = [0.049 length(obsImage) 0 0];
 X = complex(x1,x2);
 
 %	number of samples in MCMC
-nsamples = 1000;
+nsamples = 20000;
 M = 100;
 
 %	initial lens parameters
